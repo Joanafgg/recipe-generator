@@ -1,0 +1,31 @@
+/** @format */
+body {
+  background: #FCF4D9;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(231, 143, 76);
+}
+
+footer {
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(33, 142, 97);
+}
+
+footer a:hover {
+  text-decoration: underline rgb(231, 143, 76);
+}
+
+.github-icon {
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.github-icon:hover {
+  color: rgb(231, 143, 76);
+}
