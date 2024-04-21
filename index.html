@@ -10,25 +10,34 @@
       src="https://kit.fontawesome.com/d0fe361a2a.js"
       crossorigin="anonymous"
     ></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
     <title>AI Recipe Generator</title>
   </head>
   <body>
+    <div class="container"> 
     <header>
       <h1>AI Recipe Generator</h1>
+      <h3>🥕🥦🍠🥬</h3>
     </header>
 
     <main>
       <form>
         <input
           type="text"
-          placeholder="Write an ingredient for the recipe"
+          placeholder="Write an ingredient...."
           autofocus
           required
           autocomplete="off"
+          class="instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button"/>
       </form>
-      <div>
+      <div class="recipe">
 Put a large saucepan on a medium heat and add 1 tbsp olive oil.
 <br />
 Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.
@@ -49,6 +58,7 @@ Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.
         >Netlify</a
       >
     </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
