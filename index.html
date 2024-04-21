@@ -12,37 +12,39 @@
     ></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <title>AI Recipe Generator</title>
   </head>
   <body>
     <div class="container"> 
     <header>
       <h1>AI Recipe Generator</h1>
-      <h3>🥕🧄🫘🥑</h3>
+      <h3>🥕🧄🫘🥬</h3>
+<h4> When you have that ingredient but you don't know what to cook...</h4>
+
     </header>
 
     <main>
-      <form>
+      <form id="recipe-generator-form">
         <input
           type="text"
-          placeholder="Write an ingredient...."
+          placeholder="i.e: spinach, corn, courgette, beet ..."
           autofocus
           required
           autocomplete="off"
           class="instructions"
         />
         <input type="submit" class="submit-button"/>
-      </form>
-      <div class="recipe">
-Put a large saucepan on a medium heat and add 1 tbsp olive oil.
-<br />
-Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.
 
+      </form>
+
+      <div class="recipe" id="recipe">
       </div>
+     
     </main>
     <footer>
       This AI project was coded with 🧡 by
