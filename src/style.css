@@ -28,6 +28,8 @@ h3 {
     font-size: 30px;
     text-align: center;  
 line-height: 1.5;
+  color: rgb(33, 142, 97);
+
 
 }
 
@@ -83,10 +85,12 @@ border-left:3px solid rgb(231, 143, 76);
     box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
+
 footer {
   font-size: 15px;
   margin-top: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 footer a {
