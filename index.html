@@ -17,23 +17,25 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
 <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Recipe Generator</title>
   </head>
   <body>
     <div class="container"> 
     <header>
-      <h1>AI Recipe Generator</h1>
-      <h3>🥕🧄🫘🥬</h3>
+      <h1>Recipe Generator</h1>
+      <h3>🥕🧄🫘🥑</h3>
 <h4> When you have that ingredient but you don't know what to cook...</h4>
 
     </header>
 
     <main>
+      <div class="form-container">
       <form id="recipe-generator-form">
         <input
           type="text"
-          placeholder="i.e: spinach, corn, courgette, beet..."
+          placeholder="Enter an ingredient..."
           autofocus
           required
           autocomplete="off"
@@ -43,10 +45,10 @@
         <input type="submit" class="submit-button"/>
 
       </form>
-
-      <div class="recipe" id="recipe">
+<div class="hint">i.e: spinach, corn, courgette, beet</div>
+</div>
+      <div class="recipe hidden" id="recipe">
       </div>
-     
     </main>
     <footer>
       This AI project was coded with 🧡 by
